@@ -1,4 +1,4 @@
-# Large binaries & archives (exceed GitHub Pages 1 GB limit; kept locally on PC)
+# Large binaries & archives (ignore other PDFs so site stays under GitHub Pages 1 GB limit)
 *.pdf
 *.PDF
 *.rar
@@ -8,6 +8,17 @@
 *.7z
 *.mp4
 *.mkv
+
+# Allow Month 1 & core high-priority PDFs (208 PDFs, ~930 MB total)
+!weak1/**/*.pdf
+!weak1/*.pdf
+!00_Roadmap_&_Azad_Graduation/**/*.pdf
+!00_Roadmap_&_Azad_Graduation/*.pdf
+!01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/**/*.pdf
+!01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/**/*.pdf
+!01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/**/*.pdf
+!02_Mathematics_Courses_Coef2/01_Discrete_Mathematics_Coef2/**/*.pdf
+!04_Past_Exams_&_Tests/**/*.pdf
 
 # Local server state & archived courses
 progress_state.json
