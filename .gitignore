@@ -1,0 +1,18 @@
+# Large binaries & archives (exceed GitHub Pages 1 GB limit; kept locally on PC)
+*.pdf
+*.PDF
+*.rar
+*.RAR
+*.zip
+*.ZIP
+*.7z
+*.mp4
+*.mkv
+
+# Local server state & archived courses
+progress_state.json
+05_Archived*/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1902 @@
+window.CURRICULUM_1406 = {
+  "meta": {
+    "title": "نقشه راه و سامانه مطالعه کنکور ارشد مهندسی و علم کامپیوتر ۱۴۰۶ — گرایش هوش مصنوعی",
+    "code": "۱۲۷۷ (کد ضریب ۱)",
+    "kickoffIso": "2026-11-23",
+    "examIso": "2027-05-06",
+    "examDateLabel": "پنجشنبه ۱۶ و جمعه ۱۷ اردیبهشت ۱۴۰۶",
+    "registrationLabel": "۱۶ تا ۲۲ آذر ۱۴۰۵ (sanjesh.org)",
+    "azadDeadlineLabel": "حداکثر ۳۱ شهریور ۱۴۰۶",
+    "disclaimer": "کنکور ۱۴۰۶ نخستین دوره برگزاری با ساختار ۳ بلوکی (ضرایب ۴، ۲، ۱) است؛ ازاین‌رو تعداد دقیق سوالات هر درس و مدت زمان نهایی دفترچه تا زمان انتشار اطلاعیه رسمی سنجش برآوردی (بر مبنای الگوی ۱۱۵ سوالی ۱۴۰۲ و ۱۴۰۳ در ۲۴۰ دقیقه) در نظر گرفته شده است."
+  },
+  "blocks": [
+    {
+      "id": "spec",
+      "name": "دروس تخصصی",
+      "coef": 4,
+      "share": "۵۷.۱۴٪",
+      "perSubjectShare": "~۷.۱۴٪ تا ۸.۱۶٪ هر عنوان",
+      "estQuestions": "~۷۰ سوال (برآوردی)",
+      "summary": "۷ عنوان رسمی در جدول وزارت علوم (۸ درس در برنامه‌ریزی مطالعاتی). مدار منطقی و معماری از ضریب ۲، و سیستم‌عامل و نظریه از ضریب ۳ به ضریب ۴ ارتقا یافته‌اند و مبانی برنامه‌سازی اضافه شده است."
+    },
+    {
+      "id": "math",
+      "name": "مجموعه ریاضیات",
+      "coef": 2,
+      "share": "۲۸.۵۷٪",
+      "perSubjectShare": "~۹.۵۲٪ هر درس",
+      "estQuestions": "~۲۰ سوال (برآوردی)",
+      "summary": "شامل ریاضیات گسسته، آمار و احتمال مهندسی و درس جدید جبر خطی (جایگزین ریاضی عمومی ۱ و ۲). ارزش تک‌تک دروس این بلوک بیش از ۲ برابر نظام قدیم شده است."
+    },
+    {
+      "id": "eng",
+      "name": "زبان انگلیسی",
+      "coef": 1,
+      "share": "۱۴.۲۸٪",
+      "perSubjectShare": "۱۴.۲۸٪ کل بلوک",
+      "estQuestions": "~۲۵ سوال (برآوردی)",
+      "summary": "واژگان، متن بسته (Cloze) و ۳ متن درک مطلب تخصصی. حذف ریاضی و زبان در نظام ۱۴۰۶ یعنی از دست دادن ۴۲.۸۵٪ کل نمره آزمون پیش از شروع رقابت!"
+    }
+  ],
+  "phases": [
+    {
+      "id": "p1",
+      "order": 1,
+      "title": "پایه و پیش‌نیازها",
+      "weeks": "هفته ۱ تا ۴",
+      "jalali": "آذر ۱۴۰۵",
+      "focus": "ساختمان داده، مبانی C، مدار منطقی و گسسته پایه + ثبت‌نام کنکور"
+    },
+    {
+      "id": "p2",
+      "order": 2,
+      "title": "تثبیت هسته تخصصی",
+      "weeks": "هفته ۵ تا ۸",
+      "jalali": "دی ۱۴۰۵",
+      "focus": "هوش مصنوعی، شروع طراحی الگوریتم و بستن ریاضیات گسسته"
+    },
+    {
+      "id": "p3",
+      "order": 3,
+      "title": "تکمیل الگوریتم و جبر خطی",
+      "weeks": "هفته ۹ تا ۱۲",
+      "jalali": "بهمن ۱۴۰۵",
+      "focus": "برنامه‌نویسی پویا/گراف، سیستم‌عامل، جبر خطی و شروع نظریه"
+    },
+    {
+      "id": "p4",
+      "order": 4,
+      "title": "معماری، آمار و اتمام دروس",
+      "weeks": "هفته ۱۳ تا ۱۶",
+      "jalali": "اسفند ۱۴۰۵",
+      "focus": "اتمام نظریه، آمار و احتمال، معماری کامپیوتر و زبان کنکور"
+    },
+    {
+      "id": "p5",
+      "order": 5,
+      "title": "جمع‌بندی و شبیه‌سازی",
+      "weeks": "هفته ۱۷ تا ۲۲",
+      "jalali": "فروردین و اردیبهشت ۱۴۰۶",
+      "focus": "مرور، حل دفترچه‌های فیلترشده ۱۳۹۹–۱۴۰۳ و تثبیت بیداری ۶:۳۰ صبح"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "ds",
+      "order": 1,
+      "title": "ساختمان داده‌ها",
+      "enTitle": "Data Structures",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ (جزو عنوان مشترک با الگوریتم)",
+      "estQuestions": "~۷ تا ۸ سوال (برآوردی)",
+      "roiBadge": "اولویت اول و پیش‌نیاز",
+      "prerequisite": "ندارد — نقطه شروع اصلی",
+      "weeks": "هفته ۱ تا ۶",
+      "oneLiner": "مغز نرم‌افزاری کنکور؛ تست‌های الگوریتمی و درختی پرتکرار که پیش‌نیاز طراحی الگوریتم و هوش مصنوعی است.",
+      "topics": {
+        "core": [
+          {
+            "id": "ds_t1",
+            "text": "تحلیل پیچیدگی زمانی حلقه‌ها، نمادهای مجانبی و قضیه اصلی (Master Theorem)"
+          },
+          {
+            "id": "ds_t2",
+            "text": "پشته و صف (عبارات پیشوندی/پسوندی و اعداد کاتالان) و آرایه‌های خاص/تنک"
+          },
+          {
+            "id": "ds_t3",
+            "text": "درخت‌های دودویی، بازسازی از پیمایش‌ها، BST و درخت متوازن AVL (فرمول کمترین گره و دوران‌ها)"
+          },
+          {
+            "id": "ds_t4",
+            "text": "درخت هرم (Min/Max-Heap، ساخت در O(n) و حذف/درج) و جداول درهم‌سازی (Hashing)"
+          },
+          {
+            "id": "ds_t5",
+            "text": "پیمایش گراف‌ها (انواع یال‌های DFS و BFS) و مقایسه زمان/حافظه الگوریتم‌های مرتب‌سازی"
+          }
+        ],
+        "important": [
+          {
+            "id": "ds_t6",
+            "text": "لیست‌های پیوندی یک‌طرفه، دوطرفه و حلقوی + دستکاری اشاره‌گرها در ساختارهای داده"
+          },
+          {
+            "id": "ds_t7",
+            "text": "درخت‌های چندراهی (B-Tree / Red-Black) و شمارش گره‌های برگ و درونی"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "ds_t8",
+            "text": "مرور نکات تکمیلی جزوه استاد یوسفی و حل بسته نکته و تست ساختمان داده"
+          }
+        ]
+      },
+      "tips": [
+        "در تحلیل AVL، رابطه N(h) = N(h-1) + N(h-2) + 1 و ارتفاع تک‌گره (۰ یا ۱ بودن بر اساس صورت سوال) فوق‌پرتکرار است.",
+        "درخت دودویی تنها با یکی از زوج‌های (Pre+In) یا (Post+In) یا (Level+In) به شکل یکتا بازسازی می‌شود؛ Pre+Post کافی نیست مگر درخت کامل اکید باشد.",
+        "همیشه جدول مقایسه بهترین/میانگین/بدترین حالت و پایداری مرتب‌سازی‌ها (Quick, Merge, Heap, Insertion) را آماده مرور هفتگی نگه دارید."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و نقشه درس",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: پیچیدگی و روابط بازگشتی",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Ch01_Complexity_&_Recurrences.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: آرایه، پشته، صف و لیست",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Ch02_Arrays_Stacks_Queues_LinkedLists.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: درخت دودویی، BST و AVL",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Ch03_Binary_Trees_BST_AVL.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۴: هرم و درهم‌سازی",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Ch04_Heaps_&_Hashing.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۵: گراف و مرتب‌سازی",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Ch05_Graphs_&_Sorting.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوه راعی (PDF)",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Downloads/Jozveh_Data_Structures_Raee.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "جزوه استاد یوسفی (۲۲ فایل PDF)",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Downloads/Jozveh_Data_Structures_Yousefi/",
+          "kind": "folder"
+        },
+        {
+          "label": "نکته و تست ساختمان داده و الگوریتم (۵۶ PDF)",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Downloads/Nokteh_Test_DS_Algo/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "prog",
+      "order": 2,
+      "title": "مبانی کامپیوتر و برنامه‌سازی C/C++",
+      "enTitle": "Computer Fundamentals & C Programming",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": true,
+      "shareLabel": "~۷.۱۴٪ تا ۸.۱۶٪ سهم خام",
+      "estQuestions": "~۸ تا ۱۰ سوال (برآوردی)",
+      "roiBadge": "کم‌حجم و زودبازده",
+      "prerequisite": "ندارد — شروع از هفته ۱",
+      "weeks": "هفته ۱ تا ۴",
+      "oneLiner": "کم‌حجم‌ترین درس ضریب ۴ در کنکور ۱۴۰۶؛ با تسلط بر اشاره‌گرها و بازگشت سریع‌ترین بازگشت سرمایه را می‌دهد.",
+      "topics": {
+        "core": [
+          {
+            "id": "prog_t1",
+            "text": "حساب اشاره‌گرها (*p++، *++p، ++*p)، پیمایش آرایه‌های دو‌بعدی در حافظه سطری و پوینتر به تابع"
+          },
+          {
+            "id": "prog_t2",
+            "text": "توابع بازگشتی ترکیبی با کلاس‌های ذخیره‌سازی (به‌ویژه static و تفاوت با متغیر سراسری)"
+          },
+          {
+            "id": "prog_t3",
+            "text": "تقدم و شرکت‌پذیری عملگرها، اتصال کوتاه (Short-Circuit در && و ||) و عملگرهای بیتی"
+          }
+        ],
+        "important": [
+          {
+            "id": "prog_t4",
+            "text": "دام‌های ساختارهای کنترلی (عدم وجود break در switch، رفتار continue در for در برابر while)"
+          },
+          {
+            "id": "prog_t5",
+            "text": "رشته‌های کاراکتری در C (تفاوت آرایه char[] قابل ویرایش با char* خواندنی) و توابع <string.h>"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "prog_t6",
+            "text": "حافظه struct با ترازسازی (Padding)، اشتراک حافظه در union و مبانی ماکروهای پیش‌پردازنده (#define)"
+          }
+        ]
+      },
+      "tips": [
+        "عملگر پسوندی p++ بالاتر از * قرار دارد (*p++ یعنی مقدار خانه فعلی را بخوان و سپس اشاره‌گر را جلو ببر)؛ این تله پای ثابت سوالات C است.",
+        "در اتصال کوتاه، اگر سمت چپ && غلط یا سمت چپ || درست شود، عبارات دارای عارضه جانبی (مثل ++m) در سمت راست اصلاً اجرا نمی‌شوند!",
+        "چون دفترچه‌های قدیمی کنکور سوال C نداشتند، پس از مطالعه ۳ فصل اینجا، حتماً از تست‌های کتاب دکتر هادی یوسفی (پوران پژوهش) یا سوالات المپیاد/کنکورهای فنی کاردانی برای تسلط تستی تمرین کنید."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "01_Specialized_Courses_Coef4/04_Computer_Fundamentals_&_Programming_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: مبانی، عملگرها و عملیات بیتی",
+          "url": "01_Specialized_Courses_Coef4/04_Computer_Fundamentals_&_Programming_Coef4/Ch01_C_Basics_Operators_&_Bitwise.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: کنترل جریان، بازگشت و static",
+          "url": "01_Specialized_Courses_Coef4/04_Computer_Fundamentals_&_Programming_Coef4/Ch02_Control_Flow_Functions_&_Recursion.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: اشاره‌گرها، آرایه، رشته و Struct",
+          "url": "01_Specialized_Courses_Coef4/04_Computer_Fundamentals_&_Programming_Coef4/Ch03_Pointers_Arrays_Strings_&_Structs.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "تست‌های استاندارد C (تست ۱۰ و ۱۱)",
+          "url": "04_Past_Exams_&_Tests/01_High_Frequency_Topic_Tests_With_Solutions.md",
+          "kind": "tests"
+        }
+      ]
+    },
+    {
+      "id": "logic",
+      "order": 3,
+      "title": "مدارهای منطقی",
+      "enTitle": "Logic Circuits",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ تا ۸.۱۶٪ سهم خام",
+      "estQuestions": "~۸ تا ۱۰ سوال (برآوردی)",
+      "roiBadge": "صعود از ضریب ۲ به ۴ در ۱۴۰۶",
+      "prerequisite": "ندارد — هم‌پایه سخت‌افزاری",
+      "weeks": "هفته ۳ تا ۶",
+      "oneLiner": "در ۱۴۰۶ از ضریب ۲ به ضریب ۴ جهش کرده است و همراه معماری، یک‌چهارم باکس تخصصی را می‌سازد.",
+      "topics": {
+        "core": [
+          {
+            "id": "logic_t1",
+            "text": "ساده‌سازی توابع بولی با جدول کارنو (K-Map)، جبر بول، توابع خوددوگان (Self-Dual) و پیاده‌سازی با NAND/NOR"
+          },
+          {
+            "id": "logic_t2",
+            "text": "مدارهای ترکیبی پرکاربرد: مالتی‌پلکسر (MUX)، دیکدر، کدگذار، جمع‌کننده سریع (CLA) و مقایسه ROM/PLA/PAL"
+          },
+          {
+            "id": "logic_t3",
+            "text": "مدارهای ترتیبی: فلیپ‌فلاپ‌ها (JK, D, T)، تحلیل مدارهای ترتیبی سنکرون، شمارنده‌های حلقوی و جانسون"
+          }
+        ],
+        "important": [
+          {
+            "id": "logic_t4",
+            "text": "تحلیل زمانی مدارهای ترتیبی: محاسبه حداکثر فرکانس ساعت (T_clk >= T_cq + T_comb + T_setup) و شرط Hold"
+          },
+          {
+            "id": "logic_t5",
+            "text": "مخاطرات (Hazards: ایستا ۱، ایستا ۰ و پویا) و نحوه حذف آن‌ها با افزودن عبارت اجماع"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "logic_t6",
+            "text": "درک کدهای پایه توصیف سخت‌افزار (Verilog / VHDL) شامل تفاوت انتساب Blocking (=) و Non-Blocking (<=)"
+          }
+        ]
+      },
+      "tips": [
+        "در کنکور ۱۴۰۱ تا ۱۴۰۳ سوالات مدار منطقی معمولاً بین تست‌های ۷۶ تا ۸۶ قرار دارند؛ تست‌های الکترونیک دیجیتال (ترانزیستور/CMOS و گیت‌های آنالوگ) در پایان همین بازه را رد کنید!",
+        "تعداد توابع خوددوگان n متغیره دقیقاً برابر 2^(2^(n-1)) است و یک شمارنده جانسون n بیتی از 2^n حالت کل فقط 2n حالت مفید دارد.",
+        "در سوالات تحلیل زمانی فلیپ‌فلاپ‌ها مراقب Clock Skew باشید: تأخیر ساعت روی فلیپ‌فلاپ مقصد مهلت را بیشتر و قید Hold را سخت‌تر می‌کند."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "01_Specialized_Courses_Coef4/07_Logic_Circuits_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: جبر بول، ترکیبی و ترتیبی",
+          "url": "01_Specialized_Courses_Coef4/07_Logic_Circuits_Coef4/Ch01_Boolean_Combinational_&_Sequential_Circuits.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: تحلیل زمانی، هازارد و HDL",
+          "url": "01_Specialized_Courses_Coef4/07_Logic_Circuits_Coef4/Ch02_Timing_Analysis_Hazards_&_HDL_Basics.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوات PDF مدار منطقی (۱۲ فایل)",
+          "url": "01_Specialized_Courses_Coef4/07_Logic_Circuits_Coef4/Downloads/Jozveh_Logic_Circuits/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "order": 4,
+      "title": "هوش مصنوعی",
+      "enTitle": "Artificial Intelligence",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ تا ۸.۱۶٪ سهم خام",
+      "estQuestions": "~۸ تا ۱۰ سوال (برآوردی)",
+      "roiBadge": "درس هویتی گرایش هدف",
+      "prerequisite": "نیمه اول ساختمان داده (جست‌وجو و گراف)",
+      "weeks": "هفته ۵ تا ۸",
+      "oneLiner": "هسته تخصصی گرایش هوش مصنوعی؛ علاوه‌بر کنکور، پایه مستقیم دروس دوره ارشد است.",
+      "topics": {
+        "core": [
+          {
+            "id": "ai_t1",
+            "text": "جست‌وجوی ناآگاهانه (BFS, DFS, UCS, IDS) و مقایسه کامل پیچیدگی زمانی/فضایی، بهینگی و کامل بودن"
+          },
+          {
+            "id": "ai_t2",
+            "text": "جست‌وجوی آگاهانه (A*, IDA*, RBFS) و تسلط کامل بر شرط قابل قبول (Admissible) و سازگار (Consistent) بودن h(n)"
+          },
+          {
+            "id": "ai_t3",
+            "text": "درخت بازی‌ها (Minimax)، هرس آلفا-بتا (ترتیب گره‌ها در حداکثر هرس) و درخت Expectiminimax"
+          },
+          {
+            "id": "ai_t4",
+            "text": "منطق مرتبه اول (FOL): تبدیل به فرم نرمال عطفی (CNF)، اسکولم‌سازی، یکسان‌سازی و برهان تناقض (Resolution)"
+          }
+        ],
+        "important": [
+          {
+            "id": "ai_t5",
+            "text": "مسائل ارضای محدودیت (CSP): هیوریستیک‌های MRV, Degree, LCV، روش Forward Checking و سازگاری کمان (AC-3)"
+          },
+          {
+            "id": "ai_t6",
+            "text": "عدم قطعیت و شبکه‌های بیز: تشخیص استقلال شرطی (D-Separation)، شمارش پارامترهای CPT و پوشش مارکوف"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "ai_t7",
+            "text": "جست‌وجوی محلی (تپه‌نوردی، شبیه‌سازی تبرید، ژنتیک) و مبانی یادگیری ماشین (درخت تصمیم، آنتروپی و بهره اطلاعاتی)"
+          }
+        ]
+      },
+      "tips": [
+        "در جست‌وجوی گرافی (با Closed List) فقط هیوریستیک «سازگار» تضمین می‌کند اولین بسط هر گره بهینه باشد؛ قابل قبول بودن به‌تنهایی فقط در جست‌وجوی درختی کافی است.",
+        "در شبکه‌های بیز، پوشش مارکوف (Markov Blanket) هر گره شامل والدین، فرزندان و سایر والدینِ فرزندان است؛ تعداد پارامترهای جدول یک گره دودویی با k والد دقیقاً 2^k است.",
+        "تمام ۴۱ فایل PDF جزوه و بانک تست استاد درفشه به همراه جزوه دانشگاه امیرکبیر مستقیماً داخل پوشه همین درس آماده است."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: عامل‌ها و الگوریتم‌های جست‌وجو",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Ch01_Uninformed_&_Informed_Search.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: ارضای محدودیت و جست‌وجوی محلی",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Ch02_CSP_&_Local_Search.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: بازی‌ها و هرس آلفا-بتا",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Ch03_Adversarial_Search_&_Games.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۴: منطق گزاره‌ای و مرتبه اول",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Ch04_Propositional_&_First_Order_Logic.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۵: عدم قطعیت، بیز و یادگیری پایه",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Ch05_Uncertainty_Bayesian_&_ML_Basics.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوه هوش مصنوعی امیرکبیر (PDF)",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Downloads/Jozveh_AI_Amirkabir_University.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "جزوه کامل استاد درفشه (۲۳ فایل PDF)",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Downloads/Jozveh_AI_Derafsheh/",
+          "kind": "folder"
+        },
+        {
+          "label": "بانک تست هوش مصنوعی (۱۸ فایل PDF)",
+          "url": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Downloads/TestBank_AI_Derafsheh/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "algo",
+      "order": 5,
+      "title": "طراحی الگوریتم‌ها",
+      "enTitle": "Algorithm Design",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ (جزو عنوان مشترک با ساختمان داده)",
+      "estQuestions": "~۷ تا ۸ سوال (برآوردی)",
+      "roiBadge": "مرزبندی رتبه‌های برتر زیر ۳۰۰",
+      "prerequisite": "اتمام ساختمان داده‌ها",
+      "weeks": "هفته ۷ تا ۱۰",
+      "oneLiner": "فنی‌ترین بخش باکس تخصصی؛ تسلط بر DP و قضایای MST/کوتاه‌ترین مسیر شما را از داوطلبان متوسط جدا می‌کند.",
+      "topics": {
+        "core": [
+          {
+            "id": "algo_t1",
+            "text": "برنامه‌نویسی پویا (DP): ضرب ماتریس‌ها (MCM)، زیردنباله مشترک (LCS)، کوله‌پشتی ۰-۱ و درخت جست‌وجوی بهینه (OBST)"
+          },
+          {
+            "id": "algo_t2",
+            "text": "درخت پوشای کمینه (پریم، کراسکال، قضیه برش و دور، شرط یکتایی MST و تاثیر تغییر ثابت وزن یال‌ها)"
+          },
+          {
+            "id": "algo_t3",
+            "text": "کوتاه‌ترین مسیر در گراف (دایکسترا، بلمن-فورد، فلوید-وارشال، جانسون) و تحلیل مرتبه اجرای آن‌ها با ساختارهای داده مختلف"
+          }
+        ],
+        "important": [
+          {
+            "id": "algo_t4",
+            "text": "روش حریصانه (کدگذاری هافمن، زمان‌بندی با جریمه، کوله‌پشتی کسری) و اثبات درستی انتخاب حریصانه"
+          },
+          {
+            "id": "algo_t5",
+            "text": "تقسیم و حل (کاراتسوبا، استراسن، یافتن میانه در زمان قطعی خطی O(n) و نزدیک‌ترین جفت نقاط)"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "algo_t6",
+            "text": "کلاس‌های پیچیدگی (P, NP, NP-Complete, NP-Hard)، کاهش‌های چندجمله‌ای استاندارد و الگوریتم‌های جریان بیشینه"
+          }
+        ]
+      },
+      "tips": [
+        "اضافه کردن مقدار ثابت به تمام یال‌ها، MST را تغییر نمی‌دهد اما کوتاه‌ترین مسیر بین دو راس را ممکن است عوض کند (چون مسیرهای طولانی‌تر یال بیشتری دارند و بیشتر جریمه می‌شوند).",
+        "پیچیدگی الگوریتم فلوید-وارشال همواره Θ(V^3) است اما الگوریتم جانسون برای گراف‌های خلوت با E = O(V) به O(V^2 log V) می‌رسد.",
+        "از مقایسه ۳ جزوه شریف، تهران و جامع و بسته نکته و تست مشترک با ساختمان داده استفاده کنید تا برای تست‌های مفهومی NP و کاهش آماده باشید."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: تقسیم و حل",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Ch01_Divide_and_Conquer.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: حریصانه و MST",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Ch02_Greedy_&_MST.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: برنامه‌نویسی پویا",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Ch03_Dynamic_Programming.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۴: کوتاه‌ترین مسیر و NP",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Ch04_Shortest_Paths_&_NP_Completeness.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوه جامع الگوریتم (PDF)",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Downloads/Jozveh_Algorithm_Comprehensive.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "جزوه دکتر قدسی — شریف (PDF)",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Downloads/Jozveh_Algorithm_Dr_Ghodsi_Sharif.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "جزوه دکتر گنج‌تابش — تهران (PDF)",
+          "url": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Downloads/Jozveh_Algorithm_Dr_GanjTabesh_Tehran.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "نکته و تست ساختمان داده و الگوریتم (۵۶ PDF)",
+          "url": "01_Specialized_Courses_Coef4/02_Data_Structures_Coef4/Downloads/Nokteh_Test_DS_Algo/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "os",
+      "order": 6,
+      "title": "سیستم‌های عامل",
+      "enTitle": "Operating Systems",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ تا ۸.۱۶٪ سهم خام",
+      "estQuestions": "~۸ تا ۱۰ سوال (برآوردی)",
+      "roiBadge": "صعود از ضریب ۳ به ۴ در ۱۴۰۶",
+      "prerequisite": "مفاهیم پایه کد C (فرآیند/اشاره‌گر)",
+      "weeks": "هفته ۹ تا ۱۲",
+      "oneLiner": "در ۱۴۰۶ دیگر فقط کنار شبکه و پایگاه داده نیست؛ هم‌وزن هوش مصنوعی است و فرمول‌های ثابت زیادی دارد.",
+      "topics": {
+        "core": [
+          {
+            "id": "os_t1",
+            "text": "فرآیندها، درخت فراخوانی fork()، نخ‌های سطح کاربر در برابر هسته و زمان‌بندی پردازنده (SRTF, RR, HRRN)"
+          },
+          {
+            "id": "os_t2",
+            "text": "همگام‌سازی و سمافورهای شمارشی/دودویی، الگوریتم پترسون و ترتیب اجرای کدهای تولیدکننده-مصرف‌کننده"
+          },
+          {
+            "id": "os_t3",
+            "text": "مدیریت حافظه و حافظه مجازی: صفحه‌بندی چندسطحی، فرمول EAT با TLB و الگوریتم‌های جایگزینی صفحه (FIFO, LRU, Optimal)"
+          }
+        ],
+        "important": [
+          {
+            "id": "os_t4",
+            "text": "بن‌بست (Deadlock): ۴ شرط کافمن، فرمول حداقل منابع برای جلوگیری از بن‌بست (∑(Max_i - 1) + 1) و الگوریتم بانکدار"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "os_t5",
+            "text": "زمان‌بندی دیسک (SSTF, SCAN, LOOK, C-SCAN) و محاسبه حداکثر اندازه فایل در ساختار i-node"
+          }
+        ]
+      },
+      "tips": [
+        "تعداد کل فرآیندهای ایجادشده با n بار اجرای متوالی fork() برابر 2^n فرآیند (یا 2^n - 1 فرزند جدید) است؛ اما شرطی مثل fork() && fork() را با کشیدن درخت اجرا حل کنید.",
+        "در سوالات سمافور، مقدار فعلی برابر S_0 - n_P + n_V است و قدرمطلق مقدار منفی دقیقاً تعداد فرآیندهای مسدودشده در صف انتظار را نشان می‌دهد.",
+        "در کنکورهای ۱۴۰۲ و ۱۴۰۳، سوالات سیستم‌عامل معمولاً ۷ تا ۸ سوال اولِ باکس تخصصی ۴ (شروع از شماره ۹۶) هستند؛ بعد از تمام شدن آن‌ها سوالات شبکه و پایگاه داده را رد کنید!"
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: فرآیندها و زمان‌بندی CPU",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/Ch01_Processes_Threads_&_CPU_Scheduling.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: همگام‌سازی و سمافورها",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/Ch02_Synchronization_&_Semaphores.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: بن‌بست (Deadlocks)",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/Ch03_Deadlocks.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۴: مدیریت حافظه و حافظه مجازی",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/Ch04_Memory_Management_&_Virtual_Memory.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۵: زمان‌بندی دیسک و سیستم فایل",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/Ch05_Disk_Scheduling_&_File_Systems.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوات PDF سیستم‌عامل (۶ فایل)",
+          "url": "01_Specialized_Courses_Coef4/05_Operating_Systems_Coef4/Downloads/system amel/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "automata",
+      "order": 7,
+      "title": "نظریه زبان‌ها و ماشین‌ها",
+      "enTitle": "Theory of Languages & Automata",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ تا ۸.۱۶٪ سهم خام",
+      "estQuestions": "~۸ تا ۱۰ سوال (برآوردی)",
+      "roiBadge": "بالاترین بازده نسبی به حجم",
+      "prerequisite": "منطق و مجموعه‌های گسسته",
+      "weeks": "هفته ۱۱ تا ۱۴",
+      "oneLiner": "کم‌حجم، قاعده‌مند و با ضریب ۴ جدید؛ هر تستی که روی جداول بستاری و تصمیم‌پذیری حل کنید تقریباً نمره قطعی است.",
+      "topics": {
+        "core": [
+          {
+            "id": "auto_t1",
+            "text": "اتوماتای متناهی (DFA / NFA)، کمینه‌سازی جدول هم‌ارزی، عبارات منظم و تشخیص سریع زبان‌های منظم در برابر نامنظم"
+          },
+          {
+            "id": "auto_t2",
+            "text": "گرامرهای مستقل از متن (CFG)، ابهام، فرم نرمال چامسکی و اتوماتای پشته‌ای (تفاوت دقیق DCFL و CFL)"
+          },
+          {
+            "id": "auto_t3",
+            "text": "جدول طلایی خواص بستاری و جدول تصمیم‌پذیری (Regular, DCFL, CFL, CSL, Rec, RE) + قضیه رایس"
+          }
+        ],
+        "important": [
+          {
+            "id": "auto_t4",
+            "text": "ماشین‌های تورینگ استاندارد و چندنواری، زبان‌های بازگشتی (Recursive) و شمارش‌پذیر بازگشتی (RE)"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "auto_t5",
+            "text": "گرامرهای ساده (s-grammar)، لم‌های تزریق منظم و مستقل از متن، و کاهش مسائل به توقف تورینگ (HALT_TM)"
+          }
+        ]
+      },
+      "tips": [
+        "تله کلاسیک کنکور: خانواده زبان‌های مستقل از متن (CFL) تحت اجتماع، الحاق و ستاره کلینی بسته است اما تحت **اشتراک و متمم بسته نیست**! (برخلاف DCFL که تحت متمم بسته است).",
+        "طبق قضیه رایس، هر ویژگی غیربدیهی معنایی از زبان یک ماشین تورینگ تصمیم‌ناپذیر است؛ اما ویژگی‌های ساختاری خود دستگاه ماشین (مثل تعداد حالت‌ها) تصمیم‌پذیرند.",
+        "برای افزایش سرعت، اول ۴۱ فایل PDF جزوه و بانک تست موجود در پوشه این درس را روی سوالات تشخیص کلاس زبان تمرین کنید."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: اتوماتای متناهی و زبان‌های منظم",
+          "url": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/Ch01_Finite_Automata_&_Regular_Languages.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: گرامرهای مستقل از متن و PDA",
+          "url": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/Ch02_Context_Free_Grammars_&_PDA.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: ماشین تورینگ و جداول طلایی",
+          "url": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/Ch03_Turing_Machines_&_Decidability.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوات PDF نظریه زبان‌ها (۱۷ فایل)",
+          "url": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/Downloads/pdf nazarieh zaban/",
+          "kind": "folder"
+        },
+        {
+          "label": "بانک تست نظریه زبان‌ها (۲۴ فایل PDF)",
+          "url": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/Downloads/TestBank_Automata/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "arch",
+      "order": 8,
+      "title": "معماری کامپیوتر",
+      "enTitle": "Computer Architecture",
+      "block": "spec",
+      "coef": 4,
+      "isNew1406": false,
+      "shareLabel": "~۷.۱۴٪ تا ۸.۱۶٪ سهم خام",
+      "estQuestions": "~۸ تا ۱۰ سوال (برآوردی)",
+      "roiBadge": "صعود از ضریب ۲ به ۴ در ۱۴۰۶",
+      "prerequisite": "اتمام مدارهای منطقی",
+      "weeks": "هفته ۱۵ تا ۱۶",
+      "oneLiner": "ارتقایافته به ضریب ۴؛ مباحث کش، خط لوله و ضرب بوث محاسباتی و قابل پیش‌بینی هستند.",
+      "topics": {
+        "core": [
+          {
+            "id": "arch_t1",
+            "text": "حافظه نهان (Cache): نگاشت مستقیم، انجمنی و مجموعه‌انجمنی، استخراج بیت‌های Tag / Index / Offset و فرمول AMAT"
+          },
+          {
+            "id": "arch_t2",
+            "text": "کارایی پردازنده (CPU Time = IC × CPI × T_clk) و کاربرد قانون آمدال (Amdahl's Law) در محاسبه Speedup"
+          },
+          {
+            "id": "arch_t3",
+            "text": "پردازش خط لوله‌ای (Pipeline): مخاطرات داده‌ای (RAW)، ارسال به جلو (Forwarding)، حباب (Stall) و پیش‌بینی شاخه"
+          }
+        ],
+        "important": [
+          {
+            "id": "arch_t4",
+            "text": "زبان انتقال ثبات (RTL)، کامپیوتر پایه موریس مانو و مقایسه واحد کنترل سخت‌افزاری با ریزبرنامه (Microprogrammed)"
+          },
+          {
+            "id": "arch_t5",
+            "text": "الگوریتم ضرب بوث (Booth) و نمایش اعداد ممیز شناور استاندارد IEEE 754 (تک‌دقت و مضاعف)"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "arch_t6",
+            "text": "حافظه مجازی مشترک با سیستم‌عامل و روش‌های انتقال I/O (برنامه‌ریزی‌شده، وقفه‌ای و DMA)"
+          }
+        ]
+      },
+      "tips": [
+        "در الگوریتم ضرب بوث استاندارد، تعداد عملیات شیفت به راست حسابی دقیقاً برابر حداقل تعداد بیت‌های علامت‌دار مکمل ۲ مورد نیاز برای نمایش ضرب‌کننده (Q) است.",
+        "در تفکیک آدرس Cache همواره بر حسب کلمه یا بایت سوال را چک کنید؛ Offset = log2(اندازه بلاک)، Index = log2(تعداد مجموعه‌ها) و مابقی Tag است.",
+        "در دفترچه‌های ۱۴۰۱ تا ۱۴۰۳ سوالات معماری کامپیوتر در بخش میانی باکس تخصصی ۳ (بین تست‌های ۷۶ تا ۹۵، پس از مدار منطقی و پیش از الکترونیک دیجیتال) قرار دارند."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل کامل و منابع (جدید)",
+          "url": "01_Specialized_Courses_Coef4/08_Computer_Architecture_Coef4/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: کش، آمدال، پایپلاین و IEEE 754",
+          "url": "01_Specialized_Courses_Coef4/08_Computer_Architecture_Coef4/00_Selective_HighYield_Guide.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: واحد کنترل، RTL و ضرب بوث",
+          "url": "01_Specialized_Courses_Coef4/08_Computer_Architecture_Coef4/Ch02_RTL_Control_Unit_&_Booth_Multiplication.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوات PDF معماری کامپیوتر (۲۶ فایل)",
+          "url": "01_Specialized_Courses_Coef4/08_Computer_Architecture_Coef4/Downloads/Jozveh_Computer_Architecture/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "discrete",
+      "order": 9,
+      "title": "ریاضیات گسسته",
+      "enTitle": "Discrete Mathematics",
+      "block": "math",
+      "coef": 2,
+      "isNew1406": false,
+      "shareLabel": "~۹.۵۲٪ از کل نمره خام آزمون!",
+      "estQuestions": "~۶ تا ۷ سوال (برآوردی)",
+      "roiBadge": "بیشترین ارزش تک‌درسی کل آزمون",
+      "prerequisite": "ندارد — هم‌زمان با هفته ۱",
+      "weeks": "هفته ۱ تا ۸",
+      "oneLiner": "هر تک‌درس ریاضی در ۱۴۰۶ حدود ۹.۵٪ کل نمره را می‌سازد (بالاتر از سهم میانگین تک‌درس تخصصی!).",
+      "topics": {
+        "core": [
+          {
+            "id": "disc_t1",
+            "text": "شمارش روابط دودویی (بازتابی، متقارن، پادمتقارن، هم‌ارزی و تعداد افرازها/اعداد بل) و ترتیب جزئی (Poset / شبکه)"
+          },
+          {
+            "id": "disc_t2",
+            "text": "ترکیبیات پیشرفته: اصل شمول و طرد، جایگشت‌ها، پریش (Derangement) و توابع مولد (Generating Functions)"
+          },
+          {
+            "id": "disc_t3",
+            "text": "نظریه گراف در گسسته: گراف‌های اویلری و همیلتونی، گراف مسطح (فرمول اویلر R = E - V + 2) و رنگ‌آمیزی گراف"
+          }
+        ],
+        "important": [
+          {
+            "id": "disc_t4",
+            "text": "حل روابط بازگشتی خطی همگن و ناهمگن و منطق گزاره‌ای/سورها"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "disc_t5",
+            "text": "هم‌نهشتی‌ها، الگوریتم اقلیدس، تابع فی اویلر و قضیه کوچک فرما"
+          }
+        ]
+      },
+      "tips": [
+        "تعداد روابط هم‌زمان بازتابی و پادمتقارن روی مجموعه n عضوی دقیقاً 3^(n(n-1)/2) است؛ جدول ۵ حالتی شمارش روابط را حتماً یک‌بار استنتاج کنید تا هرگز فرمولی حفظی فراموش نشود.",
+        "مبحث گراف بین گسسته، ساختمان داده و طراحی الگوریتم هم‌پوشانی قوی دارد؛ یعنی خواندن گراف اینجا مستقیماً به ضریب ۴هایتان هم کمک می‌کند!",
+        "۶۶ فایل PDF جزوه و بانک تست طبقه‌بندی‌شده گسسته (فصلی، جمع‌بندی و حل کنکورهای ارشد/دکتری) در پوشه این درس آماده است."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "02_Mathematics_Courses_Coef2/01_Discrete_Mathematics_Coef2/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: منطق، مجموعه‌ها و شمارش روابط",
+          "url": "02_Mathematics_Courses_Coef2/01_Discrete_Mathematics_Coef2/Ch01_Logic_Sets_&_Relations.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: ترکیبیات، بازگشتی و نظریه گراف",
+          "url": "02_Mathematics_Courses_Coef2/01_Discrete_Mathematics_Coef2/Ch02_Combinatorics_&_Graph_Theory.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "جزوات PDF ریاضیات گسسته (۱۰ فایل)",
+          "url": "02_Mathematics_Courses_Coef2/01_Discrete_Mathematics_Coef2/Downloads/Jozveh_Discrete_Math/",
+          "kind": "folder"
+        },
+        {
+          "label": "بانک تست و حل کنکور گسسته (۵۶ PDF)",
+          "url": "02_Mathematics_Courses_Coef2/01_Discrete_Mathematics_Coef2/Downloads/TestBank_Discrete_Math/",
+          "kind": "folder"
+        }
+      ]
+    },
+    {
+      "id": "linalg",
+      "order": 10,
+      "title": "جبر خطی",
+      "enTitle": "Linear Algebra",
+      "block": "math",
+      "coef": 2,
+      "isNew1406": true,
+      "shareLabel": "~۹.۵۲٪ از کل نمره خام آزمون!",
+      "estQuestions": "~۶ تا ۷ سوال (برآوردی)",
+      "roiBadge": "جدید ۱۴۰۶ + پیش‌نیاز ارشد هوش",
+      "prerequisite": "ندارد — شروع از بهمن ۱۴۰۵",
+      "weeks": "هفته ۹ تا ۱۲",
+      "oneLiner": "جایگزین ریاضی عمومی ۱ و ۲ شده است؛ هم‌ارزش با کل یک درس تخصصی و پیش‌نیاز مستقیم یادگیری ماشین در ارشد.",
+      "topics": {
+        "core": [
+          {
+            "id": "lin_t1",
+            "text": "دترمینان، اثر ماتریس (Trace)، ماتریس‌های خاص (متقارن، متعامد، خودتوان، پوچ‌توان) و شرط سازگاری و یکتایی دستگاه AX = b"
+          },
+          {
+            "id": "lin_t2",
+            "text": "فضاهای برداری، استقلال خطی، پایه و بُعد، ۴ زیرفضای اصلی ماتریس و قضیه طلایی رتبه-پوچی (rank + nullity = n)"
+          },
+          {
+            "id": "lin_t3",
+            "text": "مقادیر ویژه و بردارهای ویژه (رابطه با دترمینان و اثر)، تعدد جبری در برابر هندسی و شرط قطری‌سازی"
+          }
+        ],
+        "important": [
+          {
+            "id": "lin_t4",
+            "text": "قضیه کیلی-همیلتون برای محاسبه توان‌های ماتریس و تبدیلات خطی ماتریسی"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "lin_t5",
+            "text": "ضرب داخلی، تعامد گرام-اشمیت و شرایط ماتریس‌های معین مثبت (Positive Definite)"
+          }
+        ]
+      },
+      "tips": [
+        "برای هر چندجمله‌ای ماتریسی P(A)، مقادیر ویژه دقیقاً P(λ_i) و دترمینان آن حاصل‌ضرب P(λ_i)هاست؛ این تکنیک اکثر تست‌های پیچیده دترمینان را در ۲۰ ثانیه حل می‌کند.",
+        "در ماتریس متقارن حقیقی، تمام مقادیر ویژه حقیقی‌اند، بردارهای ویژه متناظر با مقادیر متمایز بر هم عمودند و ماتریس همواره قطری‌شدنی متعامد است.",
+        "چون این درس در دفترچه‌های ۱۳۹۸–۱۴۰۳ نبوده، پس از تسلط بر ۳ فصل درس‌نامه، کتاب «مبانی جبر خطی» دکتر رضوانی یا تست‌های جبر خطی ارشد علوم کامپیوتر را کار کنید."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "02_Mathematics_Courses_Coef2/03_Linear_Algebra_Coef2/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: ماتریس‌ها، دترمینان و AX=b",
+          "url": "02_Mathematics_Courses_Coef2/03_Linear_Algebra_Coef2/Ch01_Matrices_Determinants_&_Linear_Systems.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: فضای برداری، رتبه و پوچی",
+          "url": "02_Mathematics_Courses_Coef2/03_Linear_Algebra_Coef2/Ch02_Vector_Spaces_Rank_Nullity_&_Transformations.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۳: مقادیر ویژه، قطری‌سازی و معین مثبت",
+          "url": "02_Mathematics_Courses_Coef2/03_Linear_Algebra_Coef2/Ch03_Eigenvalues_Diagonalization_&_Inner_Product.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "تست‌های استاندارد جبر خطی (تست ۱۴ و ۱۵)",
+          "url": "04_Past_Exams_&_Tests/01_High_Frequency_Topic_Tests_With_Solutions.md",
+          "kind": "tests"
+        }
+      ]
+    },
+    {
+      "id": "prob",
+      "order": 11,
+      "title": "آمار و احتمال مهندسی",
+      "enTitle": "Engineering Probability & Statistics",
+      "block": "math",
+      "coef": 2,
+      "isNew1406": false,
+      "shareLabel": "~۹.۵۲٪ از کل نمره خام آزمون!",
+      "estQuestions": "~۶ تا ۷ سوال (برآوردی)",
+      "roiBadge": "فرمولی با ثبات + پایه یادگیری آماری",
+      "prerequisite": "ترکیبیات گسسته",
+      "weeks": "هفته ۱۳ تا ۱۶",
+      "oneLiner": "در کنکورهای ۱۴۰۲ و ۱۴۰۳ سهم آمار استنباطی (فاصله اطمینان و آزمون فرض) در کنار متغیرهای تصادفی جدی‌تر شده است.",
+      "topics": {
+        "core": [
+          {
+            "id": "prob_t1",
+            "text": "احتمال شرطی، قانون احتمال کل، قضیه بیز و استقلال پیشامدها"
+          },
+          {
+            "id": "prob_t2",
+            "text": "متغیرهای تصادفی گسسته و پیوسته، امید ریاضی، واریانس و تابع مولد گشتاور (MGF)"
+          },
+          {
+            "id": "prob_t3",
+            "text": "جدول ۷ توزیع معروف (دوجمله‌ای، هندسی، پواسون، یکنواخت، نمایی، نرمال، گاما) و خاصیت عدم حافظه"
+          }
+        ],
+        "important": [
+          {
+            "id": "prob_t4",
+            "text": "توزیع‌های توام، چگالی حاشیه‌ای، امید شرطی (E[Y|X]) و همبستگی/کوواریانس"
+          },
+          {
+            "id": "prob_t5",
+            "text": "آمار استنباطی (مطابق سوالات ۳۷–۳۹ کنکور ۱۴۰۳): قضیه حد مرکزی، برآورد فاصله اطمینان و آزمون فرض زوجی"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "prob_t6",
+            "text": "تبدیل تک‌متغیره و نامساوی‌های چبیشف و مارکوف"
+          }
+        ]
+      },
+      "tips": [
+        "تشخیص سریع توزیع از روی شکل M_X(t) (مثلاً `(q + p e^t)^n` دوجمله‌ای و `exp(λ(e^t - 1))` پواسون است) راه حل ۵۰٪ تست‌های واریانس ترکیبی است.",
+        "در توزیع‌های نمایی و هندسی «خاصیت عدم حافظه» برقرار است؛ همیشه در سوالات طول عمر یا آزمایش متوالی به دنبال آن بگردید.",
+        "در کنکورهای ۱۴۰۱ تا ۱۴۰۳ سوالات آمار و احتمال داخل باکس ریاضی (قبل از گسسته یا پس از سوالات ریاضی ۱ و ۲ حذف‌شده) قرار دارند."
+      ],
+      "resources": [
+        {
+          "label": "سرفصل و منابع",
+          "url": "02_Mathematics_Courses_Coef2/02_Probability_&_Statistics_Coef2/00_Syllabus_&_Resources.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: احتمال، MGF و ۷ توزیع معروف",
+          "url": "02_Mathematics_Courses_Coef2/02_Probability_&_Statistics_Coef2/Ch01_Probability_Random_Variables_&_Distributions.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "فصل ۲: توزیع توام، CLT و استنباط آماری",
+          "url": "02_Mathematics_Courses_Coef2/02_Probability_&_Statistics_Coef2/Ch02_Joint_Distributions_CLT_&_Statistical_Inference.md",
+          "kind": "lesson"
+        },
+        {
+          "label": "تست استاندارد MGF (تست ۱۳)",
+          "url": "04_Past_Exams_&_Tests/01_High_Frequency_Topic_Tests_With_Solutions.md",
+          "kind": "tests"
+        }
+      ]
+    },
+    {
+      "id": "eng",
+      "order": 12,
+      "title": "زبان عمومی و تخصصی انگلیسی",
+      "enTitle": "General & Technical English",
+      "block": "eng",
+      "coef": 1,
+      "isNew1406": false,
+      "shareLabel": "۱۴.۲۸٪ از کل نمره خام (۲.۱۴ برابر قدیم!)",
+      "estQuestions": "~۲۵ سوال (برآوردی)",
+      "roiBadge": "۲۵ دقیقه شبانه بدون افت انرژی",
+      "prerequisite": "تمرین مستمر از هفته ۱",
+      "weeks": "هفته ۱ تا ۲۲ (پیوسته)",
+      "oneLiner": "در نظام جدید یک تست زبان با ضریب ۱ به‌اندازه نیمی از ارزش تک‌درس‌ها رشد کرده و رها کردنش اشتباه استراتژیک است.",
+      "topics": {
+        "core": [
+          {
+            "id": "eng_t1",
+            "text": "بانک واژگان پرتکرار علوم کامپیوتر، هوش مصنوعی و امنیت (۳۰+ کلمه کلیدی و Academic Connectors)"
+          },
+          {
+            "id": "eng_t2",
+            "text": "گرامر Cloze متون علمی: تشخیص مجهول فنی، جمله‌واره‌های کاهش‌یافته (-ed در برابر -ing) و توافق فعل و فاعل"
+          },
+          {
+            "id": "eng_t3",
+            "text": "مهارت Reading Comprehension (۳ متن تخصصی): شکار سوالات Reference و Detail با Skimming"
+          }
+        ],
+        "important": [
+          {
+            "id": "eng_t4",
+            "text": "تمرین زمان‌دار ۲۵ سوال زبان دفترچه‌های کنکور ۱۳۹۸ تا ۱۴۰۳ (الگوی ۲۵ دقیقه‌ای)"
+          }
+        ],
+        "bonus": [
+          {
+            "id": "eng_t5",
+            "text": "آشنایی با سبک متون جدید کنکور ۱۴۰۵ (پردازش متن/غلط‌یاب، امنیت CAPTCHA و فلسفه هوش مصنوعی)"
+          }
+        ]
+      },
+      "tips": [
+        "در کنکور ۱۴۰۲ و ۱۴۰۳ بخش زبان دقیقاً ۲۵ سوال اول (۱ تا ۲۵: ۷ واژگان + ۳ کلوز + ۱۵ درک مطلب) بوده است؛ این ۲۵ سوال ۱۴.۲۸٪ نمره کل ۱۴۰۶ شماست.",
+        "در آزمون ابتدا ۳ تست کلوز و واژگان آشنا را بزنید (حدود ۷ دقیقه)، سپس از میان ۳ متن درک مطلب، متنی را که موضوعش به هوش مصنوعی یا امنیت نزدیک‌تر است زودتر پاسخ دهید.",
+        "هرگز با حدس زدن واژگان کاملاً ناآشنا نمره منفی نگیرید؛ حذف دو گزینه غیرمنطقی یا رها کردن سوال ناشناس درصد شما را نجات می‌دهد."
+      ],
+      "resources": [
+        {
+          "label": "راهنمای راهبردی و درک مطلب",
+          "url": "03_English_Course_Coef1/00_English_Reading_&_Vocab_Guide.md",
+          "kind": "syllabus"
+        },
+        {
+          "label": "فصل ۱: واژگان تخصصی CS/AI، کلوز و متون",
+          "url": "03_English_Course_Coef1/Ch01_Computer_Science_High_Frequency_Vocabulary.md",
+          "kind": "lesson"
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "st_1",
+      "step": 1,
+      "phaseId": "p1",
+      "weeks": "هفته ۱ و ۲",
+      "weekStart": 1,
+      "weekEnd": 2,
+      "jalali": "۲ تا ۱۵ آذر ۱۴۰۵",
+      "title": "آغاز مسیر: پیچیدگی، زبان C و گسسته",
+      "goal": "تسلط بر تحلیل پیچیدگی زمانی، عملگرها/بیتی C و منطق/روابط گسسته + پیگیری اداری دانشگاه آزاد.",
+      "subjects": [
+        "ds",
+        "prog",
+        "discrete",
+        "eng"
+      ],
+      "topicIds": [
+        "ds_t1",
+        "ds_t2",
+        "prog_t3",
+        "disc_t1",
+        "eng_t1"
+      ],
+      "packageUrl": "weak1/00_START_HERE_Week1_Master_Plan.md",
+      "deadline": "پیگیری کمیسیون موارد خاص دانشگاه آزاد",
+      "checklistNote": "شروع رسمی از دوشنبه ۲ آذر: روزانه ۳ باکس کنکور + ۲۰ دقیقه واژگان CS/AI."
+    },
+    {
+      "id": "st_2",
+      "step": 2,
+      "phaseId": "p1",
+      "weeks": "هفته ۳ و ۴",
+      "weekStart": 3,
+      "weekEnd": 4,
+      "jalali": "۱۶ تا ۲۹ آذر ۱۴۰۵",
+      "title": "درخت‌های AVL، اشاره‌گرهای C و شروع مدار",
+      "goal": "بستن پرونده درس جدید مبانی برنامه‌سازی C و تسلط بر درخت‌های BST/AVL در کنار ثبت‌نام کنکور.",
+      "subjects": [
+        "ds",
+        "prog",
+        "logic",
+        "eng"
+      ],
+      "topicIds": [
+        "ds_t3",
+        "prog_t1",
+        "prog_t2",
+        "prog_t4",
+        "prog_t5",
+        "logic_t1"
+      ],
+      "packageUrl": "01_Specialized_Courses_Coef4/04_Computer_Fundamentals_&_Programming_Coef4/Ch03_Pointers_Arrays_Strings_&_Structs.md",
+      "deadline": "ثبت‌نام قطعی کنکور ارشد: ۱۶ تا ۲۲ آذر ۱۴۰۵ (sanjesh.org)",
+      "checklistNote": "هنگام ثبت‌نام در سایت سنجش، وضعیت کد شناور ۱۲۷۶ (فناوری اطلاعات) را چک کنید."
+    },
+    {
+      "id": "st_3",
+      "step": 3,
+      "phaseId": "p2",
+      "weeks": "هفته ۵ و ۶",
+      "weekStart": 5,
+      "weekEnd": 6,
+      "jalali": "۳۰ آذر تا ۱۳ دی ۱۴۰۵",
+      "title": "اتمام ساختمان داده، بستن مدار منطقی و ورود به هوش",
+      "goal": "تکمیل هرم، هش و گراف در ساختمان داده، بستن مدار منطقی (با تحلیل زمانی و HDL) و شروع جست‌وجو در هوش.",
+      "subjects": [
+        "ds",
+        "ai",
+        "logic",
+        "eng"
+      ],
+      "topicIds": [
+        "ds_t4",
+        "ds_t5",
+        "ai_t1",
+        "ai_t2",
+        "logic_t2",
+        "logic_t3",
+        "logic_t4",
+        "logic_t5"
+      ],
+      "packageUrl": "01_Specialized_Courses_Coef4/07_Logic_Circuits_Coef4/Ch02_Timing_Analysis_Hazards_&_HDL_Basics.md",
+      "deadline": "",
+      "checklistNote": "در پایان هفته ۶ دو درس ضریب ۴ (مبانی C و مدار منطقی) و ساختمان داده کامل بسته شده‌اند."
+    },
+    {
+      "id": "st_4",
+      "step": 4,
+      "phaseId": "p2",
+      "weeks": "هفته ۷ و ۸",
+      "weekStart": 7,
+      "weekEnd": 8,
+      "jalali": "۱۴ تا ۲۷ دی ۱۴۰۵",
+      "title": "اتمام هوش مصنوعی، بستن گسسته و شروع الگوریتم",
+      "goal": "تسلط بر بازی‌ها، FOL و شبکه‌های بیز + بستن کامل ریاضیات گسسته (~۹.۵٪ سهم کل) و شروع طراحی الگوریتم.",
+      "subjects": [
+        "ai",
+        "algo",
+        "discrete",
+        "eng"
+      ],
+      "topicIds": [
+        "ai_t3",
+        "ai_t4",
+        "ai_t5",
+        "ai_t6",
+        "algo_t4",
+        "algo_t5",
+        "disc_t2",
+        "disc_t3",
+        "disc_t4"
+      ],
+      "packageUrl": "01_Specialized_Courses_Coef4/01_Artificial_Intelligence_Coef4/Ch04_Propositional_&_First_Order_Logic.md",
+      "deadline": "",
+      "checklistNote": "اولین درس ریاضی ضریب ۲ (گسسته) همراه با کل ۴۲ PDF هوش مصنوعی کامل می‌شود."
+    },
+    {
+      "id": "st_5",
+      "step": 5,
+      "phaseId": "p3",
+      "weeks": "هفته ۹ و ۱۰",
+      "weekStart": 9,
+      "weekEnd": 10,
+      "jalali": "۲۸ دی تا ۱۱ بهمن ۱۴۰۵",
+      "title": "برنامه‌نویسی پویا (DP)، شروع سیستم‌عامل و جبر خطی",
+      "goal": "فتح قله طراحی الگوریتم (DP و گراف) هم‌زمان با شروع فرآیند/سمافور سیستم‌عامل و درس جدید جبر خطی.",
+      "subjects": [
+        "algo",
+        "os",
+        "linalg",
+        "eng"
+      ],
+      "topicIds": [
+        "algo_t1",
+        "algo_t2",
+        "algo_t3",
+        "algo_t6",
+        "os_t1",
+        "os_t2",
+        "lin_t1"
+      ],
+      "packageUrl": "01_Specialized_Courses_Coef4/03_Algorithm_Design_Coef4/Ch03_Dynamic_Programming.md",
+      "deadline": "آماده‌سازی انتخاب واحد ترم بهمن دانشگاه آزاد",
+      "checklistNote": "تست‌های ۱۰ و ۱۱ و ۱۴ و ۱۵ بانک تست ۱۴۰۶ را در کنار درس‌نامه حل کنید."
+    },
+    {
+      "id": "st_6",
+      "step": 6,
+      "phaseId": "p3",
+      "weeks": "هفته ۱۱ و ۱۲",
+      "weekStart": 11,
+      "weekEnd": 12,
+      "jalali": "۱۲ تا ۲۵ بهمن ۱۴۰۵",
+      "title": "اتمام سیستم‌عامل و جبر خطی + شروع نظریه زبان‌ها",
+      "goal": "بستن حافظه مجازی و بن‌بست سیستم‌عامل، تکمیل مقادیر ویژه جبر خطی و شروع DFA/NFA.",
+      "subjects": [
+        "os",
+        "linalg",
+        "automata",
+        "eng"
+      ],
+      "topicIds": [
+        "os_t3",
+        "os_t4",
+        "os_t5",
+        "lin_t2",
+        "lin_t3",
+        "lin_t4",
+        "auto_t1"
+      ],
+      "packageUrl": "02_Mathematics_Courses_Coef2/03_Linear_Algebra_Coef2/Ch03_Eigenvalues_Diagonalization_&_Inner_Product.md",
+      "deadline": "انتخاب واحد ترم آخر دانشگاه آزاد (پروژه + کارآموزی + دفاع مقدس)",
+      "checklistNote": "تا پایان هفته ۱۲، ۶ درس ضریب ۴ و ۲ درس ضریب ۲ بسته شده‌اند."
+    },
+    {
+      "id": "st_7",
+      "step": 7,
+      "phaseId": "p4",
+      "weeks": "هفته ۱۳ و ۱۴",
+      "weekStart": 13,
+      "weekEnd": 14,
+      "jalali": "۲۶ بهمن تا ۹ اسفند ۱۴۰۵",
+      "title": "بستن نظریه زبان‌ها و ورود به آمار و احتمال",
+      "goal": "مسلط شدن بر جداول طلایی بستاری/تصمیم‌پذیری نظریه و شروع متغیرهای تصادفی و MGF.",
+      "subjects": [
+        "automata",
+        "prob",
+        "eng"
+      ],
+      "topicIds": [
+        "auto_t2",
+        "auto_t3",
+        "auto_t4",
+        "prob_t1",
+        "prob_t2",
+        "eng_t2"
+      ],
+      "packageUrl": "01_Specialized_Courses_Coef4/06_Theory_of_Languages_&_Automata_Coef4/Ch03_Turing_Machines_&_Decidability.md",
+      "deadline": "",
+      "checklistNote": "بانک تست ۲۴ فایلی نظریه زبان‌ها بهترین منبع تثبیت ضریب ۴ است."
+    },
+    {
+      "id": "st_8",
+      "step": 8,
+      "phaseId": "p4",
+      "weeks": "هفته ۱۵ و ۱۶",
+      "weekStart": 15,
+      "weekEnd": 16,
+      "jalali": "۱۰ تا ۲۳ اسفند ۱۴۰۵",
+      "title": "اتمام معماری کامپیوتر و آمار (تکمیل کل سرفصل‌های ۱۴۰۶)",
+      "goal": "بستن کش، پایپلاین، RTL و بوث در معماری + ۷ توزیع و استنباط آماری + تثبیت استراتژی زبان.",
+      "subjects": [
+        "arch",
+        "prob",
+        "eng"
+      ],
+      "topicIds": [
+        "arch_t1",
+        "arch_t2",
+        "arch_t3",
+        "arch_t4",
+        "arch_t5",
+        "prob_t3",
+        "prob_t4",
+        "prob_t5",
+        "eng_t3",
+        "eng_t4"
+      ],
+      "packageUrl": "01_Specialized_Courses_Coef4/08_Computer_Architecture_Coef4/00_Syllabus_&_Resources.md",
+      "deadline": "",
+      "checklistNote": "تبریک! در آستانه نوروز هر ۱۲ عنوان درسی کنکور ۱۴۰۶ به‌طور کامل خوانده شده‌اند."
+    },
+    {
+      "id": "st_9",
+      "step": 9,
+      "phaseId": "p5",
+      "weeks": "هفته ۱۷ و ۱۸",
+      "weekStart": 17,
+      "weekEnd": 18,
+      "jalali": "نوروز ۱۴۰۶ (۲۴ اسفند تا ۷ فروردین)",
+      "title": "جمع‌بندی عید، ترمیم ضعف‌ها و تست‌های نشان‌دار",
+      "goal": "مرور خلاصه‌های کل ۱۲ درس، رفع باگ‌های تستی نیمسال دوم و حل کامل ۱۵ تیپ تست منتخب ۱۴۰۶.",
+      "subjects": [
+        "ai",
+        "ds",
+        "algo",
+        "prog",
+        "discrete",
+        "linalg"
+      ],
+      "topicIds": [
+        "ds_t6",
+        "ds_t7",
+        "ai_t7",
+        "lin_t5",
+        "eng_t5"
+      ],
+      "packageUrl": "04_Past_Exams_&_Tests/01_High_Frequency_Topic_Tests_With_Solutions.md",
+      "deadline": "",
+      "checklistNote": "مهم‌ترین بازه برای تثبیت حافظه بلندمدت بدون ورود به مطالب پراکنده جدید."
+    },
+    {
+      "id": "st_10",
+      "step": 10,
+      "phaseId": "p5",
+      "weeks": "هفته ۱۹ و ۲۰",
+      "weekStart": 19,
+      "weekEnd": 20,
+      "jalali": "۸ تا ۲۱ فروردین ۱۴۰۶",
+      "title": "شبیه‌سازی فیلترشده دفترچه‌های ۱۳۹۹ تا ۱۴۰۲",
+      "goal": "اجرای آزمون‌های شبیه‌ساز ساعت ۸ صبح با خط زدن ۵ درس حذف‌شده + افزودن تست جبر خطی و C.",
+      "subjects": [
+        "os",
+        "automata",
+        "logic",
+        "arch",
+        "prob"
+      ],
+      "topicIds": [
+        "ds_t8",
+        "prog_t6",
+        "logic_t6",
+        "arch_t6",
+        "auto_t5",
+        "disc_t5",
+        "prob_t6"
+      ],
+      "packageUrl": "04_Past_Exams_&_Tests/00_Past_Exams_Index_&_Analysis_Guide.md",
+      "deadline": "شروع انتقال ساعت بیداری به ۶:۳۰ صبح",
+      "checklistNote": "در تب «دفترچه‌ها و تست‌ها» فیلتر دقیق شماره سوالات هر سال را قبل از آزمون ببینید."
+    },
+    {
+      "id": "st_11",
+      "step": 11,
+      "phaseId": "p5",
+      "weeks": "هفته ۲۱ و ۲۲",
+      "weekStart": 21,
+      "weekEnd": 22,
+      "jalali": "۲۲ فروردین تا ۱۷ اردیبهشت ۱۴۰۶",
+      "title": "شبیه‌سازی نهایی ۱۴۰۳، تورق طلایی و روز کنکور",
+      "goal": "شبیه‌سازی کامل کنکور ۱۴۰۳ در هفته ۲۱، تورق آرام جداول فرمولی در هفته ۲۲ و حضور پرانرژی سر جلسه.",
+      "subjects": [
+        "ai",
+        "ds",
+        "algo",
+        "prog",
+        "os",
+        "automata",
+        "logic",
+        "arch",
+        "discrete",
+        "linalg",
+        "prob",
+        "eng"
+      ],
+      "topicIds": [],
+      "packageUrl": "00_Roadmap_&_Azad_Graduation/02_5Month_Study_Schedule.md",
+      "deadline": "روز کنکور ارشد ۱۴۰۶: پنجشنبه ۱۶ و جمعه ۱۷ اردیبهشت ۱۴۰۶",
+      "checklistNote": "دو روز آخر قبل از آزمون هیچ مبحث جدیدی نخوانید؛ خواب منظم ۶:۳۰ صبح اولویت اول است."
+    }
+  ],
+  "booklets": [
+    {
+      "year": "۱۴۰۳",
+      "totalQ": "۱۱۵ سوال",
+      "duration": "۲۴۰ دقیقه",
+      "pdfUrl": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Konkoor_Arshad_Computer_1403_Booklet.pdf",
+      "note": "بهترین دفترچه برای شبیه‌سازی نهایی هفته ۲۱ (ساختار ۱۱۵ سوالی اخیر).",
+      "keep": [
+        {
+          "range": "۱ تا ۲۵",
+          "label": "زبان عمومی و تخصصی (کل ۲۵ سوال معتبر)"
+        },
+        {
+          "range": "۲۶ تا ۴۵ (گزیده)",
+          "label": "فقط ریاضیات گسسته و آمار و احتمال (شامل استنباط آماری ۳۷–۳۹)"
+        },
+        {
+          "range": "۴۶ تا ۵۵ (گزیده)",
+          "label": "فقط نظریه زبان‌ها و ماشین‌ها"
+        },
+        {
+          "range": "۵۶ تا ۷۵",
+          "label": "کل باکس تخصصی ۲: ساختمان داده، الگوریتم و هوش مصنوعی (۱۰۰٪ معتبر)"
+        },
+        {
+          "range": "۷۶ تا ۹۵ (گزیده)",
+          "label": "مدار منطقی (تحلیل زمانی و HDL در ۷۶، ۸۰، ۸۱) + معماری کامپیوتر (RTL و بوث در ۸۷–۸۹)"
+        },
+        {
+          "range": "۹۶ تا ۱۱۵ (گزیده)",
+          "label": "فقط سوالات سیستم‌های عامل"
+        }
+      ],
+      "skip": [
+        {
+          "range": "داخل ۲۶–۴۵",
+          "label": "سوالات ریاضی عمومی ۱ و ۲ (حذف‌شده در ۱۴۰۶)"
+        },
+        {
+          "range": "داخل ۴۶–۵۵",
+          "label": "سوالات سیگنال‌ها و سیستم‌ها (حذف‌شده در ۱۴۰۶)"
+        },
+        {
+          "range": "داخل ۷۶–۹۵",
+          "label": "سوالات الکترونیک دیجیتال (حذف‌شده در ۱۴۰۶)"
+        },
+        {
+          "range": "داخل ۹۶–۱۱۵",
+          "label": "سوالات شبکه‌های کامپیوتری و پایگاه داده‌ها (حذف‌شده در ۱۴۰۶)"
+        }
+      ]
+    },
+    {
+      "year": "۱۴۰۲",
+      "totalQ": "۱۱۵ سوال",
+      "duration": "۲۴۰ دقیقه",
+      "pdfUrl": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Konkoor_Arshad_Computer_1402_Booklet.pdf",
+      "note": "دقیقاً با همان مرزهای شماره سوال کنکور ۱۴۰۳.",
+      "keep": [
+        {
+          "range": "۱ تا ۲۵",
+          "label": "کل ۲۵ سوال زبان انگلیسی"
+        },
+        {
+          "range": "۲۶ تا ۴۵ (گزیده)",
+          "label": "ریاضیات گسسته و آمار و احتمال مهندسی"
+        },
+        {
+          "range": "۴۶ تا ۵۵ (گزیده)",
+          "label": "نظریه زبان‌ها و ماشین‌ها"
+        },
+        {
+          "range": "۵۶ تا ۷۵",
+          "label": "کل ۲۰ سوال ساختمان داده، الگوریتم و هوش مصنوعی"
+        },
+        {
+          "range": "۷۶ تا ۹۵ (گزیده)",
+          "label": "مدارهای منطقی و معماری کامپیوتر"
+        },
+        {
+          "range": "۹۶ تا ۱۱۵ (گزیده)",
+          "label": "سیستم‌های عامل"
+        }
+      ],
+      "skip": [
+        {
+          "range": "داخل ۲۶–۴۵",
+          "label": "ریاضی عمومی ۱ و ۲"
+        },
+        {
+          "range": "داخل ۴۶–۵۵",
+          "label": "سیگنال‌ها و سیستم‌ها"
+        },
+        {
+          "range": "داخل ۷۶–۹۵",
+          "label": "الکترونیک دیجیتال"
+        },
+        {
+          "range": "داخل ۹۶–۱۱۵",
+          "label": "شبکه‌های کامپیوتری و پایگاه داده‌ها"
+        }
+      ]
+    },
+    {
+      "year": "۱۴۰۱",
+      "totalQ": "۱۲۰ سوال",
+      "duration": "۲۴۰ دقیقه",
+      "pdfUrl": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Konkoor_Arshad_Computer_1401_Booklet.pdf",
+      "note": "در ۱۴۰۰ و ۱۴۰۱ بخش زبان ۳۰ سوالی بوده و تخصصی از ۵۱ شروع می‌شود.",
+      "keep": [
+        {
+          "range": "۱ تا ۳۰",
+          "label": "زبان عمومی و تخصصی (۳۰ سوال)"
+        },
+        {
+          "range": "۳۱ تا ۵۰ (گزیده)",
+          "label": "گسسته و آمار و احتمال"
+        },
+        {
+          "range": "۵۱ تا ۶۰ (گزیده)",
+          "label": "نظریه زبان‌ها و ماشین‌ها"
+        },
+        {
+          "range": "۶۱ تا ۸۰",
+          "label": "کل ۲۰ سوال ساختمان داده، الگوریتم و هوش مصنوعی"
+        },
+        {
+          "range": "۸۱ تا ۱۰۰ (گزیده)",
+          "label": "مدار منطقی و معماری کامپیوتر"
+        },
+        {
+          "range": "۱۰۱ تا ۱۲۰ (گزیده)",
+          "label": "سیستم‌های عامل"
+        }
+      ],
+      "skip": [
+        {
+          "range": "داخل ۳۱–۵۰",
+          "label": "ریاضی عمومی ۱ و ۲"
+        },
+        {
+          "range": "داخل ۵۱–۶۰",
+          "label": "سیگنال‌ها و سیستم‌ها"
+        },
+        {
+          "range": "داخل ۸۱–۱۰۰",
+          "label": "الکترونیک دیجیتال"
+        },
+        {
+          "range": "داخل ۱۰۱–۱۲۰",
+          "label": "شبکه‌های کامپیوتری و پایگاه داده‌ها"
+        }
+      ]
+    },
+    {
+      "year": "۱۴۰۰",
+      "totalQ": "۱۲۰ سوال",
+      "duration": "۲۰۰ دقیقه",
+      "pdfUrl": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Konkoor_Arshad_Computer_1400_Booklet.pdf",
+      "note": "مرزبندی دقیقاً مشابه ۱۴۰۱؛ زمان دفترچه در آن سال ۲۰۰ دقیقه بود (پاسخ‌نامه‌اش داخل فایل کلیدهای ۱۳۹۰ تا ۱۴۰۰ هست).",
+      "keep": [
+        {
+          "range": "۱ تا ۳۰",
+          "label": "زبان انگلیسی (۳۰ سوال)"
+        },
+        {
+          "range": "۳۱ تا ۵۰ (گزیده)",
+          "label": "گسسته و آمار و احتمال"
+        },
+        {
+          "range": "۵۱ تا ۶۰ (گزیده)",
+          "label": "نظریه زبان‌ها و ماشین‌ها"
+        },
+        {
+          "range": "۶۱ تا ۸۰",
+          "label": "ساختمان داده، الگوریتم و هوش مصنوعی"
+        },
+        {
+          "range": "۸۱ تا ۱۰۰ (گزیده)",
+          "label": "مدار منطقی و معماری کامپیوتر"
+        },
+        {
+          "range": "۱۰۱ تا ۱۲۰ (گزیده)",
+          "label": "سیستم‌های عامل"
+        }
+      ],
+      "skip": [
+        {
+          "range": "داخل ۳۱–۱۲۰",
+          "label": "ریاضی ۱ و ۲، سیگنال‌ها، الکترونیک دیجیتال، شبکه و پایگاه داده‌ها"
+        }
+      ]
+    },
+    {
+      "year": "۱۳۹۹",
+      "totalQ": "۱۵۰ سوال",
+      "duration": "۲۷۰ دقیقه",
+      "pdfUrl": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Konkoor_Arshad_Computer_1399_Booklet.pdf",
+      "note": "دروس تخصصی در ۹۹ یکپارچه و بدون باکس‌بندی با ۱۰۰ سوال برگزار شد.",
+      "keep": [
+        {
+          "range": "۱ تا ۳۰",
+          "label": "زبان انگلیسی"
+        },
+        {
+          "range": "۳۱ تا ۵۰ (گزیده)",
+          "label": "گسسته و آمار و احتمال"
+        },
+        {
+          "range": "۵۱ تا ۱۵۰ (گزیده)",
+          "label": "نظریه زبان‌ها، مدار منطقی، معماری، ساختمان داده و الگوریتم، سیستم‌عامل و هوش مصنوعی"
+        }
+      ],
+      "skip": [
+        {
+          "range": "داخل ۳۱–۵۰",
+          "label": "ریاضی عمومی ۱ و ۲ و معادلات دیفرانسیل"
+        },
+        {
+          "range": "داخل ۵۱–۱۵۰",
+          "label": "شبکه‌های کامپیوتری، کامپایلر و پایگاه داده‌ها"
+        }
+      ]
+    },
+    {
+      "year": "۱۳۹۸",
+      "totalQ": "۱۴۰ سوال",
+      "duration": "۲۵۵ دقیقه",
+      "pdfUrl": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Konkoor_Arshad_Computer_1398_Booklet.pdf",
+      "note": "ساختار گرایش‌محور قدیمی؛ کل باکس ۸۱–۱۰۰ در سرفصل ۱۴۰۶ حذف شده است.",
+      "keep": [
+        {
+          "range": "۱ تا ۳۰",
+          "label": "زبان انگلیسی"
+        },
+        {
+          "range": "۳۱ تا ۵۰ (گزیده)",
+          "label": "گسسته و آمار و احتمال"
+        },
+        {
+          "range": "۵۱ تا ۸۰ (گزیده)",
+          "label": "ساختمان داده و الگوریتم، نظریه، مدار منطقی، معماری و سیستم‌عامل"
+        },
+        {
+          "range": "۱۰۱ تا ۱۴۰ (فقط هوش)",
+          "label": "تنها تست‌های هوش مصنوعی در این دو بازه معتبرند"
+        }
+      ],
+      "skip": [
+        {
+          "range": "داخل ۳۱–۵۰",
+          "label": "ریاضی عمومی ۱ و ۲ و معادلات دیفرانسیل"
+        },
+        {
+          "range": "داخل ۵۱–۸۰",
+          "label": "شبکه‌های کامپیوتری"
+        },
+        {
+          "range": "۸۱ تا ۱۰۰",
+          "label": "کل بازه حذف‌شده (مدار الکتریکی، الکترونیک دیجیتال و VLSI، سیگنال‌ها)"
+        },
+        {
+          "range": "داخل ۱۰۱–۱۴۰",
+          "label": "کامپایلر، پایگاه داده، مدار الکتریکی و سیگنال‌ها"
+        }
+      ]
+    }
+  ],
+  "extraExamLinks": [
+    {
+      "label": "فایل کلید رسمی کنکورهای ۱۳۹۰ تا ۱۴۰۰ (PDF)",
+      "url": "04_Past_Exams_&_Tests/Official_Booklets_PDF/Answer_Keys_1390_to_1400.pdf",
+      "kind": "pdf"
+    },
+    {
+      "label": "بانک ۱۵ تیپ تست پرتکرار ۱۴۰۶ با پاسخ تشریحی",
+      "url": "04_Past_Exams_&_Tests/01_High_Frequency_Topic_Tests_With_Solutions.md",
+      "kind": "tests"
+    },
+    {
+      "label": "راهنمای کامل تحلیل آزمون و جدول فیلترها",
+      "url": "04_Past_Exams_&_Tests/00_Past_Exams_Index_&_Analysis_Guide.md",
+      "kind": "lesson"
+    },
+    {
+      "label": "فهرست لینک‌های مستقیم دانلود جزوات",
+      "url": "04_Past_Exams_&_Tests/02_Direct_Download_Links_Archive.md",
+      "kind": "lesson"
+    }
+  ],
+  "archivedCourses": [
+    {
+      "title": "پایگاه داده‌ها (حذف‌شده در ۱۴۰۶)",
+      "url": "05_Archived_Removed_In_1406_Syllabus/01_Database_Systems_Archived/00_Syllabus_&_Resources.md"
+    },
+    {
+      "title": "شبکه‌های کامپیوتری (حذف‌شده در ۱۴۰۶)",
+      "url": "05_Archived_Removed_In_1406_Syllabus/02_Computer_Networks_Archived/00_Selective_HighYield_Guide.md"
+    },
+    {
+      "title": "سیگنال‌ها و سیستم‌ها (حذف‌شده در ۱۴۰۶)",
+      "url": "05_Archived_Removed_In_1406_Syllabus/03_Signals_&_Systems_Archived/00_Strategy_&_Quick_Formulas.md"
+    },
+    {
+      "title": "الکترونیک دیجیتال (حذف‌شده در ۱۴۰۶)",
+      "url": "05_Archived_Removed_In_1406_Syllabus/04_Digital_Electronics_Archived/00_Strategy_&_Quick_Formulas.md"
+    },
+    {
+      "title": "ریاضی عمومی ۱ و ۲ (جایگزین‌شده با جبر خطی)",
+      "url": "05_Archived_Removed_In_1406_Syllabus/05_General_Calculus_1_&_2_Archived/00_Strategy_&_Linear_Algebra_Formulas.md"
+    }
+  ],
+  "azadChecklist": [
+    {
+      "id": "azad_admin_0",
+      "step": "گام ۱",
+      "timing": "آذر ۱۴۰۵",
+      "text": "بررسی کارنامه کل در سامانه آموزشیار (edu.iau.ir) و تثبیت وضعیت ۵ تا ۷ واحد باقیمانده"
+    },
+    {
+      "id": "azad_admin_1",
+      "step": "گام ۲",
+      "timing": "آذر ۱۴۰۵",
+      "text": "استعلام وضعیت معافیت تحصیلی در دفتر امور مشمولین دانشگاه"
+    },
+    {
+      "id": "azad_admin_2",
+      "step": "گام ۳",
+      "timing": "آذر ۱۴۰۵",
+      "text": "ثبت درخواست بازگشت به تحصیل و سنوات ارفاقی در کمیسیون موارد خاص"
+    },
+    {
+      "id": "azad_admin_3",
+      "step": "گام ۴",
+      "timing": "۱۶ تا ۲۲ آذر ۱۴۰۵",
+      "text": "ثبت‌نام قطعی کنکور ارشد ۱۴۰۶ (کد ۱۲۷۷) در sanjesh.org + کنترل جدول کد شناور ۱۲۷۶"
+    },
+    {
+      "id": "azad_admin_4",
+      "step": "گام ۵",
+      "timing": "بهمن ۱۴۰۵",
+      "text": "تسویه پیش‌پرداخت شهریه ترم بهمن در امور مالی و باز شدن منوی انتخاب واحد"
+    },
+    {
+      "id": "azad_admin_5",
+      "step": "گام ۶",
+      "timing": "بهمن ۱۴۰۵",
+      "text": "انتخاب واحد ترم بهمن ۱۴۰۵ (پروژه کارشناسی + کارآموزی + درس دفاع مقدس)"
+    },
+    {
+      "id": "azad_admin_6",
+      "step": "گام ۷",
+      "timing": "بهمن ۱۴۰۵",
+      "text": "تعیین استاد راهنمای پروژه (ترجیحاً هوش مصنوعی) و دریافت معرفی‌نامه کارآموزی"
+    },
+    {
+      "id": "azad_admin_7",
+      "step": "گام ۸",
+      "timing": "خرداد/تیر ۱۴۰۶",
+      "text": "امتحان درس دفاع مقدس، تحویل گزارش کارآموزی و دفاع نهایی پروژه کارشناسی"
+    },
+    {
+      "id": "azad_admin_8",
+      "step": "گام ۹",
+      "timing": "پیش از ۳۱ شهریور ۱۴۰۶",
+      "text": "تسویه حساب نهایی در آموزشیار و صدور فرم معدل فارغ‌التحصیلی برای ثبت‌نام ارشد"
+    }
+  ],
+  "criticalDates": [
+    {
+      "date": "۱۶ تا ۲۲ آذر ۱۴۰۵",
+      "title": "ثبت‌نام رسمی کنکور ارشد ۱۴۰۶",
+      "detail": "در سایت sanjesh.org؛ حتماً وضعیت کد شناور ۱۲۷۶ (مهندسی فناوری اطلاعات) و نبود ستاره برای علوم کامپیوتر ۱۲۰۹ در دفترچه ثبت‌نام ۱۴۰۶ را کنترل کنید."
+    },
+    {
+      "date": "بهمن ۱۴۰۵",
+      "title": "انتخاب واحد ترم نهایی دانشگاه آزاد",
+      "detail": "اخذ ۵ تا ۷ واحد باقیمانده تا پیش از پایان شهریور ۱۴۰۶ فراغت از تحصیل قطعی شود."
+    },
+    {
+      "date": "۱۶ و ۱۷ اردیبهشت ۱۴۰۶",
+      "title": "روزهای برگزاری کنکور سراسری ارشد",
+      "detail": "پنجشنبه ۱۶ و جمعه ۱۷ اردیبهشت ۱۴۰۶ — مجموعه مهندسی و علم کامپیوتر کد ۱۲۷۷ (کد ضریب ۱)."
+    },
+    {
+      "date": "خرداد ۱۴۰۶",
+      "title": "اعلام نتایج اولیه و انتخاب رشته",
+      "detail": "انتخاب رشته سراسری در sanjesh.org و انتخاب رشته دانشگاه آزاد در azmoon.org با کد دسترسی."
+    },
+    {
+      "date": "۳۱ شهریور ۱۴۰۶",
+      "title": "آخرین مهلت قانونی فارغ‌التحصیلی",
+      "detail": "شرط اجباری ورود به دوره کارشناسی ارشد در نیمسال اول ۱۴۰۶–۱۴۰۷."
+    }
+  ],
+  "officialDocs": [
+    {
+      "label": "سند مصوب سرفصل وزارت علوم (PDF — ۴۷۶ صفحه)",
+      "url": "00_Roadmap_&_Azad_Graduation/Official_1406_Computer_Engineering_Curriculum_MSRT.pdf",
+      "note": "جدول ۳ بلوک کنکور در صفحه ۸؛ دروس تخصصی و جبرانی ارشد هوش مصنوعی در صفحات ۹ و ۱۹ تا ۲۱."
+    },
+    {
+      "label": "نکات ثبت‌نام کد ۱۲۷۷ سازمان سنجش (PDF)",
+      "url": "00_Roadmap_&_Azad_Graduation/Official_1406_Registration_Notes_Sanjesh.pdf",
+      "note": "صفحه ۳۲ (کد ضریب واحد ۱ برای تمام ۱۴ ردیف ۱۲۷۷)، صفحه ۳۱ (فناوری اطلاعات ۱۲۷۶*)، صفحه ۲۴ (علوم کامپیوتر ۱۲۰۹)."
+    },
+    {
+      "label": "تحلیل جامع تغییرات و سهم نمرات ۱۴۰۶",
+      "url": "00_Roadmap_&_Azad_Graduation/03_Official_1406_Changes_&_Share_Analysis.md",
+      "note": "مقایسه دقیق نظام قدیم با ۱۴۰۶، هشدار ۴۲.۸۵٪ و نقشه دروس دوره ارشد."
+    },
+    {
+      "label": "چک‌لیست ۱۲ گامی دانشگاه آزاد",
+      "url": "00_Roadmap_&_Azad_Graduation/01_Azad_University_Checklist.md",
+      "note": "راهنمای کامل اداری فراغت از تحصیل در سامانه آموزشیار و امور مشمولین."
+    },
+    {
+      "label": "برنامه زمان‌بندی ۵ ماهه (۲۲ هفته)",
+      "url": "00_Roadmap_&_Azad_Graduation/02_5Month_Study_Schedule.md",
+      "note": "نقشه کل ۲۲ هفته مطالعه روزانه ۴ تا ۶ ساعت."
+    },
+    {
+      "label": "راهنمای جامع پایگاه داده (README)",
+      "url": "README.md",
+      "note": "معرفی ساختار پوشه‌ها و درصدهای هدف برای دانشگاه‌های سطح ۱، ۲ و آزاد."
+    }
+  ],
+  "strategy": {
+    "oldVsNew": [
+      {
+        "block": "زبان انگلیسی (عمومی و تخصصی)",
+        "oldShare": "ضریب ۱ از ۱۵ ← ۶.۶۷٪",
+        "newShare": "ضریب ۱ از ۷ ← ۱۴.۲۸٪",
+        "impact": "رشد ۲.۱۴ برابری؛ ۱۵ تست درک مطلب و کلوز از این پس نمره‌ساز واقعی هستند."
+      },
+      {
+        "block": "مجموعه ریاضیات (گسسته، آمار، جبر خطی)",
+        "oldShare": "ضریب ۲ از ۱۵ ← ۱۳.۳۳٪",
+        "newShare": "ضریب ۲ از ۷ ← ۲۸.۵۷٪",
+        "impact": "رشد ۲.۱۴ برابری؛ سهم میانگین هر درس ریاضی ~۹.۵۲٪ است (بیشتر از یک تک‌درس تخصصی!)."
+      },
+      {
+        "block": "دروس تخصصی (۷ عنوان رسمی / ۸ درس)",
+        "oldShare": "جمع ضرایب ۱۲ از ۱۵ ← ۸۰.۰۰٪",
+        "newShare": "بلوک واحد ضریب ۴ از ۷ ← ۵۷.۱۴٪",
+        "impact": "حذف پایگاه داده، شبکه، سیگنال و الکترونیک دیجیتال؛ صعود مدار و معماری به ضریب ۴؛ اضافه شدن C."
+      }
+    ],
+    "targetPercentages": [
+      {
+        "tier": "سطح ۱ تهران (شریف، تهران، امیرکبیر — رتبه زیر ۱۵۰)",
+        "weighted": "۴۵ تا ۵۵٪",
+        "detail": "تخصصی ضریب ۴ بالای ۵۵٪، ریاضیات ضریب ۲ بالای ۴۵٪، زبان بالای ۴۰٪."
+      },
+      {
+        "tier": "دولتی برتر تهران و کلان‌شهرها (علم و صنعت، بهشتی، خواجه نصیر، اصفهان، شیراز — ۱۵۰ تا ۶۰۰)",
+        "weighted": "۳۲ تا ۴۵٪",
+        "detail": "تمرکز روی مباحث ستون اصلی ضریب ۴ به همراه تسلط بر ۶۰٪ سوالات ساده و متوسط ریاضی."
+      },
+      {
+        "tier": "آزاد تراز اول (علوم و تحقیقات) و شبانه دولتی (۶۰۰ تا ۲۵۰۰)",
+        "weighted": "۲۰ تا ۳۲٪",
+        "detail": "صفر نکردن ریاضی و زبان و جلوگیری از نمره منفی در سوالات دام‌دار تخصصی."
+      }
+    ],
+    "studyRules": [
+      {
+        "title": "قانون ۳ لایه برای مطالعه بدون غرق شدن در منابع",
+        "body": "لایه اول: خواندن درس‌نامه خلاصه Markdown برای ساختن نقشه ذهنی (۳۰٪ زمان) ← لایه دوم: مراجعه به جزوه PDF استاد فقط برای مباحث مبهم ← لایه سوم: حل تست زمان‌دار و ثبت دام‌ها (۷۰٪ زمان). هرگز هم‌زمان چند جزوه از یک فصل نخوانید."
+      },
+      {
+        "title": "سیستم مرور فاصله‌دار (۱، ۳، ۷ و ۲۱ روز)",
+        "body": "فصل‌هایی مثل جداول نظریه زبان‌ها، فرمول‌های کش و ۷ توزیع آمار در عرض دو هفته فراموش می‌شوند مگر مرور شوند. تست‌هایی را که غلط زدید یا با شک درست زدید علامت‌گذاری کرده و جمعه‌ها فقط همین تست‌های نشان‌دار را حل کنید."
+      },
+      {
+        "title": "مدیریت خواب متغیر بدون از دست دادن برنامه",
+        "body": "به‌جای برنامه سفت از ۶ صبح که با اولین دیرخوابی بشکند، ساعت شروع را ۱۰:۰۰ صبح با ترتیب ثابت ۳ باکس بگذارید. هر روز باکس ۱ و ۲ برای دروس ضریب ۴ و باکس ۳ برای ریاضی است. از فروردین ۱۴۰۶ ساعت بیداری را پلکانی به ۶:۳۰ صبح (ساعت واقعی کنکور) منتقل کنید."
+      },
+      {
+        "title": "تله استراتژیک ۴۲.۸۵٪ ریاضی و زبان",
+        "body": "در کنکورهای قبل از ۱۴۰۶، حذف ریاضی و زبان فقط ۲۰٪ از سقف نمره را می‌سوزاند؛ اما در ۱۴۰۶ مجموع ریاضی (۲۸.۵۷٪) و زبان (۱۴.۲۸٪) دقیقاً ۴۲.۸۵٪ نمره خام است. میانگین‌گیری تک‌درس‌ها نشان می‌دهد هر درس ریاضی ~۹.۵۲٪ ارزش دارد."
+      },
+      {
+        "title": "پیش‌نیاز ارشد هوش مصنوعی (گزارش رسمی وزارت علوم)",
+        "body": "طبق صفحه ۹ و ۱۹ سرفصل رسمی وزارت علوم، تسلط کنکوری روی جبر خطی، آمار و احتمال، طراحی الگوریتم و هوش مصنوعی علاوه‌بر کمک به رتبه کنکور، نصف دروس جبرانی احتمالی ارشد را هم بی‌نیاز کرده و پایه مستقیم یادگیری ماشین و یادگیری عمیق است."
+      }
+    ],
+    "examProtocol": [
+      {
+        "step": "پارت ۱ تخصصی (دقیقه ۰ تا ۹۰)",
+        "target": "هوش مصنوعی، ساختمان داده‌ها، طراحی الگوریتم، مبانی C",
+        "rule": "شکار سوالات سریع و آشنای ضریب ۴ در اوج تمرکز ذهنی؛ هر تست زمان‌بر را بدون درنگ علامت زده و رد شوید."
+      },
+      {
+        "step": "پارت ۲ تخصصی (دقیقه ۹۰ تا ۱۵۰)",
+        "target": "سیستم‌های عامل، نظریه زبان‌ها، مدارهای منطقی، معماری کامپیوتر",
+        "rule": "معمولاً سوالات نظریه و مدار زمان کمتری می‌برند؛ از درگیر شدن بیش از ۲.۵ دقیقه روی محاسبات طولانی پایپلاین یا حافظه در دور اول خودداری کنید."
+      },
+      {
+        "step": "بلوک ریاضیات (دقیقه ۱۵۰ تا ۲۰۵)",
+        "target": "ریاضیات گسسته، آمار و احتمال مهندسی، جبر خطی",
+        "rule": "۵۵ دقیقه کامل و خالص با دقت محاسباتی بالا؛ چون هر تست درست در این بلوک ارزش فوق‌العاده‌ای در تراز کل دارد."
+      },
+      {
+        "step": "زبان و دور برگشت (دقیقه ۲۰۵ تا ۲۴۰)",
+        "target": "کلوز، واژگان، ۱ تا ۲ متن درک مطلب + سوالات علامت‌دار",
+        "rule": "۲۰ دقیقه روی کلوز، واژگان آشنا و متن هم‌حوزه کامپیوتر/هوش و ۱۵ دقیقه آخر برای مرور نشان‌دارها و چک پاسخ‌برگ."
+      }
+    ]
+  }
+};

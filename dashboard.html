@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>نقشه راه کنکور ارشد هوش مصنوعی ۱۴۰۶ — کد ۱۲۷۷</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1D4ED8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="ارشد هوش ۱۴۰۶" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/icon-180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png" />
+  <script>
+    (function () {
+      var t = localStorage.getItem("arshad_theme") || "light";
+      document.documentElement.setAttribute("data-theme", t === "dark" ? "dark" : "light");
+    })();
+  </script>
+  <link rel="stylesheet" href="app/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polygon points="16.2 7.8 14.1 14.1 7.8 16.2 9.9 9.9 16.2 7.8"/></svg>
+        </div>
+        <div>
+          <div class="brand-title">کنکور ارشد هوش مصنوعی ۱۴۰۶</div>
+          <div class="brand-code">مجموعه مهندسی و علم کامپیوتر — کد ۱۲۷۷</div>
+        </div>
+      </div>
+
+      <nav class="nav-tabs" aria-label="ناوبری اصلی">
+        <button type="button" class="nav-tab active" data-view="roadmap">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+          <span>مسیر مطالعه</span>
+        </button>
+        <button type="button" class="nav-tab" data-view="subjects">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 12 12 17 22 12"/><polyline points="2 17 12 22 22 17"/></svg>
+          <span>دروس و اولویت‌ها</span>
+        </button>
+        <button type="button" class="nav-tab" data-view="exams">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          <span>دفترچه‌ها و تست‌ها</span>
+        </button>
+        <button type="button" class="nav-tab" data-view="guide">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span>راهنما و دانشگاه آزاد</span>
+        </button>
+      </nav>
+
+      <div class="topbar-actions">
+        <div class="countdown-pill" id="countdownPill"></div>
+        <button type="button" class="theme-btn" id="themeToggle" aria-label="تغییر تم روشن یا تیره"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <!-- VIEW 1: ROADMAP -->
+    <section id="view-roadmap" class="view-panel active">
+      <div class="hero-card" id="heroCard"></div>
+
+      <div class="section-head">
+        <h2>فازهای پنج‌گانه تا روز کنکور</h2>
+        <p>برای تمرکز روی ایستگاه‌های هر فاز روی آن کلیک کنید</p>
+      </div>
+      <div class="phase-ribbon" id="phaseRibbon"></div>
+
+      <div class="section-head">
+        <h2>نقشه جاده‌ای ۲۲ هفته</h2>
+        <p>روی هر ایستگاه کلیک کنید تا مباحث اولویت‌دار و جزواتش باز شود</p>
+      </div>
+      <div class="roadmap-wrap" id="roadmapWrap">
+        <svg class="road-svg" id="roadSvg" aria-hidden="true"></svg>
+        <div class="road-list" id="roadList"></div>
+      </div>
+      <div class="finish-banner" id="finishBanner"></div>
+    </section>
+
+    <!-- VIEW 2: SUBJECTS & PRIORITIES -->
+    <section id="view-subjects" class="view-panel">
+      <div class="section-head" style="margin-top:0;">
+        <h2>سهم رسمی ۳ بلوک امتحانی و ۱۲ درس کنکور ۱۴۰۶</h2>
+        <p>مجموع ضرایب در کد ضریب ۱ برابر با ۷ است (۴ تخصصی + ۲ ریاضی + ۱ زبان)</p>
+      </div>
+      <div class="block-strip" id="blockStrip"></div>
+
+      <div class="filter-bar">
+        <div class="filter-group" id="subjectFilters"></div>
+        <span style="font-size:0.83rem; color:var(--ink-muted);">روی کارت هر درس کلیک کنید تا مباحث اولویت‌دار، دام‌های تستی و PDFهای آن باز شود.</span>
+      </div>
+      <div class="subjects-grid" id="subjectsGrid"></div>
+    </section>
+
+    <!-- VIEW 3: PAST EXAMS & SMART 1406 FILTER -->
+    <section id="view-exams" class="view-panel">
+      <div class="section-head" style="margin-top:0;">
+        <h2>دفترچه‌های رسمی کنکور و فیلتر هوشمند ۱۴۰۶</h2>
+        <p>مشخص کنید در هر دفترچه قدیمی کدام سوالات در سرفصل ۱۴۰۶ معتبرند و کدام بخش‌ها باید رد شوند</p>
+      </div>
+      <div class="quick-links-bar" id="examQuickLinks"></div>
+
+      <div class="exam-filter-card">
+        <h3 style="margin:0 0 4px 0; font-size:1.05rem; font-weight:800;">فیلتر شماره سوالات بر اساس سال دفترچه</h3>
+        <div class="year-tabs" id="yearTabs"></div>
+        <div id="bookletPanel"></div>
+      </div>
+
+      <details class="archive-details">
+        <summary>
+          <span>آرشیو ۵ درس حذف‌شده در سرفصل ۱۴۰۶ (فقط برای ارجاع احتمالی)</span>
+          <span style="font-size:0.78rem;">باز کردن / بستن</span>
+        </summary>
+        <div id="archivedList"></div>
+      </details>
+    </section>
+
+    <!-- VIEW 4: STRATEGY GUIDE & AZAD CHECKLIST -->
+    <section id="view-guide" class="view-panel">
+      <div class="section-head" style="margin-top:0;">
+        <h2>استراتژی کنکور ۱۴۰۶ و چک‌لیست فارغ‌التحصیلی دانشگاه آزاد</h2>
+        <p>جمع‌بندی نکات مشاوره‌ای، مقایسه دقیق نظام قدیم و جدید و اقدامات اداری تا ۳۱ شهریور ۱۴۰۶</p>
+      </div>
+      <div class="guide-grid">
+        <div id="guideLeft"></div>
+        <div id="guideRight"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SLIDE-OVER DETAIL DRAWER -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer-panel" id="drawerPanel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <div class="drawer-head">
+      <div>
+        <h2 class="drawer-title" id="drawerTitle"></h2>
+        <div class="subject-badges" id="drawerBadges"></div>
+      </div>
+      <button type="button" class="drawer-close" id="drawerClose" aria-label="بستن پنل جزئیات">
+        <svg class="icon" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+  </aside>
+
+  <!-- OFFLINE MARKDOWN READER MODAL -->
+  <div class="md-modal-backdrop" id="mdModalBackdrop">
+    <div class="md-modal" role="dialog" aria-modal="true" aria-labelledby="mdModalTitle">
+      <div class="md-modal-head">
+        <div>
+          <h2 class="md-modal-title" id="mdModalTitle">در حال بارگذاری...</h2>
+          <div class="md-modal-sub" id="mdModalSub"></div>
+        </div>
+        <button type="button" class="drawer-close" id="mdModalClose" aria-label="بستن جزوه">
+          <svg class="icon" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="md-modal-body md-prose" id="mdModalBody"></div>
+    </div>
+  </div>
+
+  <script src="app/data/curriculum_1406.js"></script>
+  <script src="app/app.js"></script>
+</body>
+</html>
